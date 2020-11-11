@@ -1,0 +1,73 @@
+.admin-menu-container {
+	background-color: #f35;
+	padding: 0 !important;
+}
+
+.admin-menu-container>.navbar {
+	padding: 0;
+}
+.admin-ul {
+	width: 100%;
+	flex-direction: column !important;
+	text-align: center;
+}
+
+.admin-ul a:hover {
+	background-color: green;
+}
+
+.announcement {
+	padding: 0 !important;
+}
+
+.admin-input input {
+	width: 100%;
+}
+
+.admin-input textarea {
+	width: 100%;
+	min-height: 250px;
+}
+
+.input_link {
+	width: 100%;
+}
+
+.admin-video-section table {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.admin-title-links {
+	display: block;
+	width: 90%;
+	margin:  0 auto;
+	text-align: center;
+}
+
+.video-title {
+	margin-top: 25px;
+}
+
+.error-message {
+	margin-top: 25px;
+}
+
+.video-section-flex {
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.add_new_section input {
+	width: 85%;
+	padding: 5px 10px;
+}
+
+.do_edit_proj {
+	margin-bottom: 25px;
+}
+
+.load_proj_img_container {
+	margin-bottom: 55px;
+}
