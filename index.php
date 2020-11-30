@@ -2,10 +2,6 @@
 
 session_start();
 
-
-
-
-
 function debug($value)
 {
 	echo '<pre style="
@@ -24,12 +20,6 @@ function debug($value)
 
 }
 
-
-
-
-
-
-
 define("ROOT", dirname(__FILE__));
 
 require_once(ROOT.'/vendor/autoload.php'); // composer autoload
@@ -37,12 +27,7 @@ require_once(ROOT.'/vendor/autoload.php'); // composer autoload
 
 $db = \DB\DB::Connect();
 
-
-
-
-
-
-#Авторизация через куки
+// Auth via COOKIE
 use App\Models\Auth;
 
 if(isset($_COOKIE['token']) && !isset($_SESSION['user']['user_token'])) {
@@ -56,9 +41,5 @@ if(isset($_COOKIE['token']) && !isset($_SESSION['user']['user_token'])) {
 		}
 	}
 }
-
-
-
-
 
 $router = new App\Router;

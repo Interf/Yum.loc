@@ -8,58 +8,58 @@ include_once(ROOT.'/components/header.php');
 
 <div class="content-container">
 
-			<div class="new-block cat-container">
+	<div class="new-block cat-container">
 
-				<div class="catalog_blog row">
-					<div class="col-md-3 test">
-						<a href="/">
-							<span class="catalog_year">2019</span>
-							<img src="/media/images/1575223809.jpg"; alt="">
-							<p>Название аниме</p>
-						</a>
-					</div>
-
-					<div class="col-md-3 test">
-						<a href="/">
-							<span class="catalog_year">2019</span>
-							<img src="/media/images/1575223809.jpg"; alt="">
-							<p>Название аниме</p>
-						</a>
-					</div>
-
-					<div class="col-md-3 test">
-						<a href="/">
-							<span class="catalog_year">2019</span>
-							<img src="/media/images/1575223809.jpg"; alt="">
-							<p>Название аниме</p>
-						</a>
-					</div>
-
-					<div class="col-md-3 test">
-						<a href="/">
-							<span class="catalog_year">2019</span>
-							<img src="/media/images/1575223809.jpg"; alt="">
-							<p>Название аниме</p>
-						</a>
-					</div>
-
-					<div class="col-md-3 test">
-						<a href="/">
-							<span class="catalog_year">2019</span>
-							<img src="/media/images/1575223809.jpg"; alt="">
-							<p>Название аниме</p>
-						</a>
-					</div>
-
-				</div>
+		<div class="catalog_blog row">
+			<div class="col-md-3 test">
+				<a href="/">
+					<span class="catalog_year">2019</span>
+					<img src="/media/images/1575223809.jpg"; alt="">
+					<p>Название аниме</p>
+				</a>
 			</div>
 
+			<div class="col-md-3 test">
+				<a href="/">
+					<span class="catalog_year">2019</span>
+					<img src="/media/images/1575223809.jpg"; alt="">
+					<p>Название аниме</p>
+				</a>
+			</div>
 
-			<?php
-			include_once(ROOT."/components/sidebar.php");
-			?>
+			<div class="col-md-3 test">
+				<a href="/">
+					<span class="catalog_year">2019</span>
+					<img src="/media/images/1575223809.jpg"; alt="">
+					<p>Название аниме</p>
+				</a>
+			</div>
+
+			<div class="col-md-3 test">
+				<a href="/">
+					<span class="catalog_year">2019</span>
+					<img src="/media/images/1575223809.jpg"; alt="">
+					<p>Название аниме</p>
+				</a>
+			</div>
+
+			<div class="col-md-3 test">
+				<a href="/">
+					<span class="catalog_year">2019</span>
+					<img src="/media/images/1575223809.jpg"; alt="">
+					<p>Название аниме</p>
+				</a>
+			</div>
 
 		</div>
+	</div>
+
+
+	<?php
+	include_once(ROOT."/components/sidebar.php");
+	?>
+
+</div>
 
 
 

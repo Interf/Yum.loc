@@ -2,8 +2,6 @@
 include_once(ROOT.'/components/header.php');
 ?>
 
-
-
 <h1>Фильтр</h1>
 
 <div class="content-container">
@@ -34,17 +32,6 @@ include_once(ROOT.'/components/header.php');
 	?>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 <?php
 include_once(ROOT.'/components/footer.php');

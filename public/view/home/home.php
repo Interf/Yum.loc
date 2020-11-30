@@ -18,13 +18,13 @@ include_once(ROOT.'/components/header.php');
 			</div>
 
 			<?php foreach($news_type_1 as $news) :?>
-					<a href="/news/item/<?=$news->id?>" class="news-link">
-						<div class="news-item">
-							<span class="news-hover"></span>
-							<span class="news-date"><?=$news->day?> <?php echo mb_substr($news->month, 0, 3);?></span>
-							<span class="news-title"><?=$news->title;?></span>
-						</div>
-					</a>
+				<a href="/news/item/<?=$news->id?>" class="news-link">
+					<div class="news-item">
+						<span class="news-hover"></span>
+						<span class="news-date"><?=$news->day?> <?php echo mb_substr($news->month, 0, 3);?></span>
+						<span class="news-title"><?=$news->title;?></span>
+					</div>
+				</a>
 			<?php endforeach; ?>
 			
 		</div>
@@ -35,13 +35,13 @@ include_once(ROOT.'/components/header.php');
 			</div>
 
 			<?php foreach($news_type_2 as $news) :?>
-					<a href="/news/item/<?=$news->id?>" class="news-link">
-						<div class="news-item">
-							<span class="news-hover"></span>
-							<span class="news-date"><?=$news->day?> <?php echo mb_substr($news->month, 0, 3);?></span>
-							<span class="news-title"><?=$news->title;?></span>
-						</div>
-					</a>
+				<a href="/news/item/<?=$news->id?>" class="news-link">
+					<div class="news-item">
+						<span class="news-hover"></span>
+						<span class="news-date"><?=$news->day?> <?php echo mb_substr($news->month, 0, 3);?></span>
+						<span class="news-title"><?=$news->title;?></span>
+					</div>
+				</a>
 			<?php endforeach; ?>
 
 		</div>
@@ -83,7 +83,7 @@ include_once(ROOT.'/components/header.php');
 
 		</div>
 
-<button class="load-more btn btn-success" value="2">Загрузить еще</button>
+		<button class="load-more btn btn-success" value="2">Загрузить еще</button>
 
 	</div>
 
